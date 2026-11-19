@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 58" width="206" height="58" fill="none" role="img" aria-labelledby="pill-whatsapp-title pill-whatsapp-desc">
+  <title id="pill-whatsapp-title">WHATSAPP: +55 19 97169-1868</title>
+  <desc id="pill-whatsapp-desc">Conversar com a Teralis Tecnologia no WhatsApp</desc>
+  <rect x="0.5" y="0.5" width="205" height="57" rx="8" fill="#0D0D11" stroke="#23232C"/>
+  <rect x="1" y="1" width="204" height="1" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="18" cy="20" r="3" fill="#10B981"/>
+  <text x="28" y="23.5" fill="#A1A1AA" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9" font-weight="600" letter-spacing="0.12em">WHATSAPP</text>
+  <text x="16" y="43" fill="#FAFAFA" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="600">+55 19 97169-1868</text>
+</svg>

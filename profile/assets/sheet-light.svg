@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 1184" width="880" height="1184" fill="none" role="img" aria-labelledby="sheet-title sheet-desc">
+  <title id="sheet-title">Teralis Tecnologia — Portfólio Institucional e Sistemas Privados</title>
+  <desc id="sheet-desc">Engenharia de software sob medida, IA 24/7 no WhatsApp e plataformas SaaS privadas desenvolvidas pela Teralis Tecnologia (teralis.pro).</desc>
+  <defs>
+    <pattern id="emblem-grid-light" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#1B1B24" stroke-width="0.75"/>
+    </pattern>
+    <radialGradient id="emblem-glow-light" cx="30%" cy="22%" r="72%">
+      <stop offset="0%" stop-color="#E52E3D" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#09090D" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shimmer-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="emblem-clip-light">
+      <rect x="584" y="78" width="248" height="296" rx="12"/>
+    </clipPath>
+  </defs>
+  <style>
+    .emblem-shimmer {
+      animation: shimmerSweep 7.5s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+    }
+    .status-pulse {
+      animation: statusFade 2.4s ease-in-out infinite;
+    }
+    @keyframes shimmerSweep {
+      0% { transform: translateX(-280px); }
+      45% { transform: translateX(300px); }
+      100% { transform: translateX(300px); }
+    }
+    @keyframes statusFade {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.45; }
+    }
+    @media (prefers-reduced-motion: reduce) { .emblem-shimmer, .status-pulse { animation: none !important; transition: none !important; } }
+  </style>
+
+  <!-- Main Editorial Canvas -->
+  <rect x="0.5" y="0.5" width="879" height="1183" rx="10" fill="#F5F3EE" stroke="#D8D4C8"/>
+
+  <!-- Top Editorial Metadata Bar -->
+  <text x="48" y="40" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="0.12em">TERALIS TECH · 2026</text>
+  <text x="408" y="40" text-anchor="middle" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="500" letter-spacing="0.08em">AMPARO, SP — BRASIL · ATUAÇÃO REMOTA</text>
+  <text x="816" y="40" text-anchor="end" fill="#0D0D11" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.08em">REPOSITÓRIOS PRIVADOS</text>
+  <circle class="status-pulse" cx="828.5" cy="36.5" r="3.5" fill="#059669"/>
+  <line x1="48" y1="56" x2="832" y2="56" stroke="#18181B" stroke-width="1.25"/>
+
+  <!-- Split Hero Left: Typography -->
+  <text x="48" y="132" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="800" letter-spacing="-0.035em">Teralis</text>
+  <text x="48" y="190" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="800" letter-spacing="-0.035em">Tecnologia<tspan fill="#C81E2D">.</tspan></text>
+
+  <text x="48" y="236" fill="#0D0D11" font-family="Georgia, 'Instrument Serif', 'Times New Roman', serif" font-size="21.5" font-weight="400">Engenharia de software sob medida.</text>
+  <text x="48" y="264" fill="#0D0D11" font-family="Georgia, 'Instrument Serif', 'Times New Roman', serif" font-size="21.5" font-weight="400">Transformamos <tspan font-style="italic" fill="#C81E2D">operação manual</tspan></text>
+  <text x="48" y="292" fill="#0D0D11" font-family="Georgia, 'Instrument Serif', 'Times New Roman', serif" font-size="21.5" font-weight="400">em infraestrutura digital que vende.</text>
+
+  <text x="48" y="326" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400">Construímos plataformas SaaS, atendimento comercial com IA 24/7 no</text>
+  <text x="48" y="344.5" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400">WhatsApp e sistemas corporativos de ponta a ponta — do banco de</text>
+  <text x="48" y="363" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400">dados à interface. Nossos repositórios são privados por sigilo</text>
+  <text x="48" y="381.5" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12.5" font-weight="400">comercial e propriedade intelectual dos clientes.</text>
+
+  <!-- Split Hero Right: Vengeance UI Architectural Emblem Card -->
+  <g clip-path="url(#emblem-clip-light)">
+    <rect x="584" y="78" width="248" height="296" rx="12" fill="#09090D"/>
+    <rect x="584" y="78" width="248" height="296" fill="url(#emblem-grid-light)"/>
+    <rect x="584" y="78" width="248" height="296" fill="url(#emblem-glow-light)"/>
+    <rect class="emblem-shimmer" x="584" y="78" width="120" height="296" fill="url(#shimmer-grad-light)"/>
+
+    <!-- Precision Corner Reticles -->
+    <path d="M598 102V92H608M818 102V92H808M598 350V360H608M818 350V360H808" stroke="#E52E3D" stroke-width="1.25" stroke-opacity="0.75"/>
+
+    <!-- Official T-Shield Vector -->
+    <g transform="translate(648 142) scale(0.3288)">
+    <path d="M176 141L162.5 146L176 153L182 173L188 153L201 146L188.5 141L182 121.5L176 141Z" fill="#FFFFFF"/>
+    <path d="M168 129.5L126 143.5L168 162V293L106 226V55H44.5L0 0H168V129.5Z" fill="#E63946"/>
+    <path d="M197 129.5L239 143.5L197 162V293L259 226V55H320.5L365 0H197V129.5Z" fill="#FDFDFD"/>
+  </g>
+
+    <!-- Bottom Emblem Tag Pill -->
+    <rect x="606" y="326" width="204" height="30" rx="6" fill="#14141B" stroke="#27272A"/>
+    <circle cx="622" cy="341" r="3" fill="#E52E3D"/>
+    <text x="714" y="344.5" text-anchor="middle" fill="#FAFAFA" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.1em">TERALIS.PRO · SYSTEM OS</text>
+  </g>
+  <rect x="584.5" y="78.5" width="247" height="295" rx="12" stroke="#262630" fill="none"/>
+
+  <!-- 3-Column Highlights Strip -->
+  
+    <g>
+      <text x="48" y="410" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.1em">PORTAL OFICIAL</text>
+      <text x="48" y="430" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700" letter-spacing="-0.01em">teralis.pro</text>
+    </g>
+    <g>
+      <text x="224" y="410" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.1em">STACK PRINCIPAL</text>
+      <text x="224" y="430" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700" letter-spacing="-0.01em">Next.js · NestJS · IA</text>
+    </g>
+    <g>
+      <text x="412" y="410" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.1em">REPOSITÓRIOS</text>
+      <text x="412" y="430" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="700" letter-spacing="-0.01em">Privados · TeralisTech</text>
+    </g>
+
+  <!-- Section 1: Private Systems in Production -->
+  <line x1="48" y1="454" x2="832" y2="454" stroke="#18181B" stroke-width="1.25"/>
+  <text x="48" y="488" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.02em">Nossos sistemas <tspan font-family="Georgia, 'Instrument Serif', 'Times New Roman', serif" font-style="italic" font-weight="400" fill="#C81E2D">em produção</tspan></text>
+  <text x="832" y="486" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="0.1em">05 SISTEMAS · PRIVADOS</text>
+  <line x1="48" y1="504" x2="832" y2="504" stroke="#D8D4C8" stroke-width="1"/>
+
+  
+    <g>
+      <text x="48" y="540" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">01</text>
+      <text x="84" y="540" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" letter-spacing="-0.01em">TERA Platform</text>
+      <text x="84" y="558" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8" font-weight="500">IA &amp; WhatsApp · teralis.pro/tera</text>
+      <text x="276" y="538" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">Atendente comercial e suporte 24/7 treinada com as</text>
+      <text x="276" y="554.5" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">regras do negócio. Responde em ~3s, qualifica</text>
+      <text x="276" y="571" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">orçamentos e agenda no Google Calendar.</text>
+      <text x="832" y="539" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">NEXT.JS · GEMINI AI</text>
+      <text x="832" y="555" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">WHATSAPP · WEBHOOKS</text>
+      <line x1="48" y1="590" x2="832" y2="590" stroke="#D8D4C8" stroke-width="1"/>
+    </g>
+    <g>
+      <text x="48" y="616" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">02</text>
+      <text x="84" y="616" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" letter-spacing="-0.01em">Teralis Web Engine</text>
+      <text x="84" y="634" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8" font-weight="500">Portais &amp; Catálogos</text>
+      <text x="276" y="614" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">Vitrines imobiliárias e comerciais de abertura</text>
+      <text x="276" y="630.5" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">&lt; 0.6s com importação automatizada do catálogo</text>
+      <text x="276" y="647" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">existente em menos de 24 horas, sem recadastro.</text>
+      <text x="832" y="615" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">NEXT.JS · TAILWIND</text>
+      <text x="832" y="631" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">SEO · GEO · CDN</text>
+      <line x1="48" y1="666" x2="832" y2="666" stroke="#D8D4C8" stroke-width="1"/>
+    </g>
+    <g>
+      <text x="48" y="692" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">03</text>
+      <text x="84" y="692" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" letter-spacing="-0.01em">Teralis Ops CRM</text>
+      <text x="84" y="710" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8" font-weight="500">Gestão Comercial · Privado</text>
+      <text x="276" y="690" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">Painel interno de funil comercial, contratos,</text>
+      <text x="276" y="706.5" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">propostas e operações B2B substituindo planilhas</text>
+      <text x="276" y="723" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">frágeis por telemetria e visão em tempo real.</text>
+      <text x="832" y="691" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">NEXT.JS · REACT 19</text>
+      <text x="832" y="707" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">FRAMER MOTION · TS</text>
+      <line x1="48" y1="742" x2="832" y2="742" stroke="#D8D4C8" stroke-width="1"/>
+    </g>
+    <g>
+      <text x="48" y="768" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">04</text>
+      <text x="84" y="768" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" letter-spacing="-0.01em">Teralis Gaming</text>
+      <text x="84" y="786" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8" font-weight="500">Esports SaaS · Privado</text>
+      <text x="276" y="766" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">Plataforma completa de torneios com salas de veto em</text>
+      <text x="276" y="782.5" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">tempo real via WebSockets, chaves eliminatórias ou</text>
+      <text x="276" y="799" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">Round Robin e balanço financeiro.</text>
+      <text x="832" y="767" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">NESTJS · PRISMA</text>
+      <text x="832" y="783" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">POSTGRES · REDIS · WS</text>
+      <line x1="48" y1="818" x2="832" y2="818" stroke="#D8D4C8" stroke-width="1"/>
+    </g>
+    <g>
+      <text x="48" y="844" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">05</text>
+      <text x="84" y="844" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="14.5" font-weight="700" letter-spacing="-0.01em">Sistemas Sob Medida</text>
+      <text x="84" y="862" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8" font-weight="500">Memory · NoPrazo · PSS Amparo</text>
+      <text x="276" y="842" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">Ecossistema privado de aplicações web e mobile para</text>
+      <text x="276" y="858.5" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">gestão financeira, controle de prazos e operações</text>
+      <text x="276" y="875" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.8" font-weight="400">corporativas com 100% de propriedade do cliente.</text>
+      <text x="832" y="843" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">FLUTTER · NODE.JS</text>
+      <text x="832" y="859" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.06em">DRIZZLE · S3 · SQLITE</text>
+      <line x1="48" y1="894" x2="832" y2="894" stroke="#D8D4C8" stroke-width="1"/>
+    </g>
+
+  <!-- Section 2: 2-Column Process and Engineering Stack -->
+  <text x="48" y="936" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.015em">Como entregamos</text>
+  <text x="412" y="935" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.1em">PROCESSO</text>
+  <line x1="48" y1="946" x2="412" y2="946" stroke="#D8D4C8" stroke-width="1"/>
+  
+    <g>
+      <text x="48" y="966" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">01</text>
+      <text x="76" y="966" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.8" font-weight="700">Diagnóstico operacional</text>
+      <text x="76" y="982" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">Mapeamos gargalos de atendimento, vendas e planilhas</text>
+      <text x="76" y="995" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">antes de escrever código.</text>
+    </g>
+    <g>
+      <text x="48" y="1014" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">02</text>
+      <text x="76" y="1014" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.8" font-weight="700">Arquitetura &amp; escopo fechado</text>
+      <text x="76" y="1030" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">Etapas, prazos, integrações e investimento definidos</text>
+      <text x="76" y="1043" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">com clareza por escrito.</text>
+    </g>
+    <g>
+      <text x="48" y="1062" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">03</text>
+      <text x="76" y="1062" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.8" font-weight="700">Entregas contínuas em produção</text>
+      <text x="76" y="1078" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">Você valida versões reais funcionando ao longo do</text>
+      <text x="76" y="1091" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">ciclo, sem caixa-preta.</text>
+    </g>
+    <g>
+      <text x="48" y="1110" fill="#C81E2D" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="700">04</text>
+      <text x="76" y="1110" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.8" font-weight="700">No ar e na sua mão</text>
+      <text x="76" y="1126" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">Infraestrutura, código-fonte, documentação e todos os</text>
+      <text x="76" y="1139" fill="#57534E" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.8">acessos pertencem ao cliente.</text>
+    </g>
+
+  <text x="456" y="936" fill="#0D0D11" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.015em">Engenharia &amp; Stack</text>
+  <text x="832" y="935" text-anchor="end" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.1em">ARQUITETURA</text>
+  <line x1="456" y1="946" x2="832" y2="946" stroke="#D8D4C8" stroke-width="1"/>
+  
+    <g>
+      <text x="456" y="964" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.06em">FRONT-END &amp; UI</text>
+      <text x="564" y="964" fill="#0D0D11" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="500">Next.js 15, React 19, TypeScript, Tailwind,</text>
+      <text x="564" y="978" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="400">Vengeance UI, GSAP</text>
+    </g>
+    <g>
+      <text x="456" y="997" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.06em">BACK-END &amp; IA</text>
+      <text x="564" y="997" fill="#0D0D11" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="500">Node.js, NestJS, Prisma, Drizzle, Gemini</text>
+      <text x="564" y="1011" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="400">AI, WebSockets, MCP</text>
+    </g>
+    <g>
+      <text x="456" y="1030" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.06em">ARQUITETURA</text>
+      <text x="564" y="1030" fill="#0D0D11" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="500">Clean Architecture, DDD, Hexagonal,</text>
+      <text x="564" y="1044" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="400">Multi-tenant SaaS</text>
+    </g>
+    <g>
+      <text x="456" y="1063" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.06em">DADOS &amp; INFRA</text>
+      <text x="564" y="1063" fill="#0D0D11" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="500">PostgreSQL, Redis, SQLite, S3, Docker,</text>
+      <text x="564" y="1077" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="400">Cloudflare, Resend</text>
+    </g>
+    <g>
+      <text x="456" y="1096" fill="#57534E" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.06em">MOBILE &amp; DESIGN</text>
+      <text x="564" y="1096" fill="#0D0D11" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="500">Flutter, Dart, Figma, Design Systems</text>
+      <text x="564" y="1110" fill="#3F3F46" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.2" font-weight="400">(teralis-dsy)</text>
+    </g>
+</svg>

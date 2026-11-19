@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 132" width="880" height="132" fill="none" role="img" aria-labelledby="footer-title footer-desc">
+  <title id="footer-title">Teralis Tecnologia — Contato e Novos Projetos</title>
+  <desc id="footer-desc">Tem um projeto? Vamos construir. — TERALIS TECNOLOGIA DA INFORMAÇÃO (AMPARO, SP · BRASIL · SLA 99.98%)</desc>
+  <defs>
+    <linearGradient id="footer-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E52E3D" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E52E3D" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="footer-clip">
+      <rect x="0.5" y="0.5" width="879" height="131" rx="10"/>
+    </clipPath>
+  </defs>
+  <style>
+    .footer-sweep {
+      animation: footerBeam 6.5s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+    }
+    @keyframes footerBeam {
+      0% { transform: translateX(-260px); opacity: 0.25; }
+      50% { opacity: 1; }
+      100% { transform: translateX(920px); opacity: 0.25; }
+    }
+    @media (prefers-reduced-motion: reduce) { .footer-sweep { animation: none !important; transition: none !important; } }
+  </style>
+
+  <g clip-path="url(#footer-clip)">
+    <rect x="0.5" y="0.5" width="879" height="131" rx="10" fill="#070709" stroke="#23232C"/>
+    <rect class="footer-sweep" x="0" y="0" width="240" height="2" fill="url(#footer-beam)"/>
+
+    <text x="48" y="60" fill="#FAFAFA" font-family="'Urbanist', 'Plus Jakarta Sans', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-size="31" font-weight="800" letter-spacing="-0.025em">Tem um projeto?</text>
+    <text x="48" y="96" fill="#E52E3D" font-family="Georgia, 'Instrument Serif', 'Times New Roman', serif" font-size="31" font-style="italic" font-weight="400">Vamos construir.</text>
+
+    <g transform="translate(786 34) scale(0.126)">
+    <path d="M176 141L162.5 146L176 153L182 173L188 153L201 146L188.5 141L182 121.5L176 141Z" fill="#FFFFFF"/>
+    <path d="M168 129.5L126 143.5L168 162V293L106 226V55H44.5L0 0H168V129.5Z" fill="#E63946"/>
+    <path d="M197 129.5L239 143.5L197 162V293L259 226V55H320.5L365 0H197V129.5Z" fill="#FDFDFD"/>
+  </g>
+    <text x="768" y="58" text-anchor="end" fill="#FAFAFA" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="0.1em">TERALIS TECNOLOGIA DA INFORMAÇÃO</text>
+    <text x="768" y="78" text-anchor="end" fill="#A1A1AA" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="500" letter-spacing="0.08em">AMPARO, SP · BRASIL · SLA 99.98%</text>
+  </g>
+</svg>
